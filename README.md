@@ -20,15 +20,32 @@ Single HTML file. Runs in the browser with no build step, no server, no tracking
 - Not financial advice and not a guarantee. Returns are assumed, never promised
 - Not a budgeting app. It does not track accounts or store anything
 
-## Use it
+## Use
 
 Open the hosted page: https://0xelitesystem.github.io/savings-goal-planner/
 
 Or download `index.html` and open it in any browser. It works offline.
 
+## Why this exists
+
+Working out how much to save each month, or how long a goal takes, should not need an account or a bank login. This is one HTML file that does the math in your browser, with no tracking and no network calls. MIT licensed.
+
 ## Privacy
 
 Everything runs client-side. No analytics, no cookies, no network calls, no local storage.
+
+## Run locally
+
+```bash
+git clone https://github.com/0xelitesystem/savings-goal-planner
+cd savings-goal-planner
+```
+
+Open `index.html` in any browser. Or serve the folder with `python -m http.server 8000` and visit http://localhost:8000/.
+
+## Build
+
+No build step. The whole tool is one `index.html` file with its CSS, JavaScript and font subsets inline.
 
 ## Related
 
